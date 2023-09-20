@@ -1,0 +1,36 @@
+body {
+    background-color:#212121;
+    color:#212121;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.contenedor {
+    width:80%;
+    background-color:#fff;
+    margin:10px auto;
+}
+
+nav {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+nav>a {
+    background-image:linear-gradient(135deg, #00f, #fff, #00f);
+    color:#818a2b;
+    width:160px;
+    text-align:center;
+    line-height:40px;
+    border-radius:10px;
+    border:1px solid #212121;
+    text-decoration:none;
+    padding:5px;
+    transition:all 1s ease;
+}
+
+nav>a:hover {
+    background-image:linear-gradient(135deg, #fff, #00f, #fff);
+    transition:all 1s ease;
+}
+
